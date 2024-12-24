@@ -1,10 +1,12 @@
 import React from 'react';
 import back from '../../../assets/icon5.png';
 import PEM_img from '../../../assets/img1.png';
+// import Header2 from '../../../components/Header2';
 
-const PEM_Electrolysis_theory = () => {
+const PEM_Electrolysis_Theory = () => {
   return (
     <div className="bg-[#f5f5f5] min-h-screen">
+      {/* <Header2 /> */}
       <div className="w-[95%] max-w-[90%] space-y-[30px] mx-auto py-[30px]">
         <div className="flex items-center gap-3.5">
           <a 
@@ -43,4 +45,4 @@ const PEM_Electrolysis_theory = () => {
   );
 };
 
-export default PEM_Electrolysis_theory;
+export default PEM_Electrolysis_Theory;
