@@ -1,8 +1,5 @@
-
-
-
-import logo from '../assets/logo.png';
-import icon2 from '../assets/icon2.png';
+import logo from "../assets/logo.png";
+import icon2 from "../assets/icon2.png";
 
 const Header = () => {
   return (
@@ -12,7 +9,10 @@ const Header = () => {
           <img src={logo} alt="logo" className="h-[45px]" />
         </a>
         <div className="flex items-center gap-2 sm:gap-4">
-          <a href="/" className="size-8 sm:size-10 border-[0.67px] border-[#05252433] rounded-full flex items-center justify-center transition-colors duration-300 hover:bg-neutral-100">
+          <a
+            href="/"
+            className="size-8 sm:size-10 border-[0.67px] border-[#05252433] rounded-full flex items-center justify-center transition-colors duration-300 hover:bg-neutral-100"
+          >
             <img src={icon2} alt="" className="w-4 sm:w-5" />
           </a>
         </div>
