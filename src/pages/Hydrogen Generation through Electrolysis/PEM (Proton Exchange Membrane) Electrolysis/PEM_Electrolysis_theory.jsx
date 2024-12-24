@@ -1,8 +1,8 @@
 import React from 'react';
-import back from '../assets/icon5.png';
-import PEM_img from '../assets/img1.png';
+import back from '../../../assets/icon5.png';
+import PEM_img from '../../../assets/img1.png';
 
-const Theory = () => {
+const PEM_Electrolysis_theory = () => {
   return (
     <div className="bg-[#f5f5f5] min-h-screen">
       <div className="w-[95%] max-w-[90%] space-y-[30px] mx-auto py-[30px]">
@@ -43,4 +43,4 @@ const Theory = () => {
   );
 };
 
-export default Theory;
+export default PEM_Electrolysis_theory;
