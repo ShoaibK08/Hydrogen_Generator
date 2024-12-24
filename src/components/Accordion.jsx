@@ -1,7 +1,5 @@
-
+import { Link } from 'react-router-dom';
 import icon6 from '../assets/icon6.png';
- 
-
 
 const AccordionItem = ({ item, isActive, onClick }) => {
   return (
@@ -20,13 +18,22 @@ const AccordionItem = ({ item, isActive, onClick }) => {
       {isActive && (
         <div className="absolute top-full -left-[1px] -right-[1px] bg-[#f5f5f5] border-[1px] border-[#DADADA] rounded-b-[10px] bg-white p-[15px] z-[1]">
           {item.content.map((paragraph, pIndex) => (
-            <a 
-              key={pIndex}
-              href={paragraph.url} 
-              className="block mb-4 last:mb-0 hover:text-[#0177fb]"
-            >
-              {paragraph.text}
-            </a>
+            paragraph.url === 'javascript:void(0)' ? (
+              <span 
+                key={pIndex}
+                className="block mb-4 last:mb-0 cursor-not-allowed text-gray-500"
+              >
+                {paragraph.text}
+              </span>
+            ) : (
+              <Link 
+                key={pIndex}
+                to={paragraph.url} 
+                className="block mb-4 last:mb-0 hover:text-[#0177fb]"
+              >
+                {paragraph.text}
+              </Link>
+            )
           ))}
         </div>
       )}
