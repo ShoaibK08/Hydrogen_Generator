@@ -3,7 +3,7 @@ import { ChevronDown } from 'lucide-react';
 import logo from '../assets/logo2.png';
 import menu from '../assets/icon1.png';
 import home from '../assets/icon2.png';
-import { NavigationItems } from './NavigationItems';
+import { LearningData } from '../data/LearningData.jsx';
 
 const Header2 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,7 +48,7 @@ const Header2 = () => {
       {isOpen && (
         <div ref={dropdownRef} className="absolute bg-white z-[100] top-20 left-0 w-full pt-5 pb-32">
           <div className="w-[95%] max-w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 lg:gap-y-5">
-            {NavigationItems.map((item, index) => (
+            {LearningData.map((item, index) => (
               <div key={index} className="relative font-inter antialiased text-sm lg:text-base">
                 <div className={activeAccordion === index ? 'bg-[#f5f5f5] rounded-t-[10px]' : 'bg-white rounded-[10px]'}>
                   <h2 className="px-[15px] hover:bg-[#f5f5f5] hover:rounded-[10px] group">

@@ -36,7 +36,7 @@ export const learningData = [
       title: 'Hydrogen Generation through Electrolysis',
       content: [
         { text: 'Alkaline Electrolysis', url: 'javascript:void(0)' },
-        { text: 'PEM (Proton Exchange Membrane) Electrolysis', url: './PEM-electrolysis.html' }
+        { text: 'PEM (Proton Exchange Membrane) Electrolysis', url: '/PEM_Electrolysis_theory' }
       ]
     },
     {

@@ -1,8 +1,8 @@
 // src/components/HydrogenLearning.jsx
-import React, { useState, useEffect, useRef } from 'react';
-import AccordionItem from '../components/Accordion';
-import { learningData } from '../data/learningData';
-import img2 from '../assets/img2.png';
+import{ useState, useEffect, useRef } from 'react';
+import AccordionItem from '../../components/Accordion.jsx';
+import { learningData } from '../../data/LearningData.js';
+import img2 from '../../assets/img2.png';
 
 const HydrogenLearning = () => {
   const [activeItem, setActiveItem] = useState(null);
