@@ -1,4 +1,4 @@
-export const learningData = [
+export const LearningData = [
     {
       title: 'Hydrogen Basics',
       content: [
