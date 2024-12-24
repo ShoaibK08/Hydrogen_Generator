@@ -1,4 +1,4 @@
-import React from 'react';
+
 import icon6 from '../assets/icon6.png';
  
 

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import  { useState, useRef, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import logo from '../assets/logo2.png';
 import menu from '../assets/icon1.png';
