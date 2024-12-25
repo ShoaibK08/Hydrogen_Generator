@@ -9,7 +9,7 @@ export const LearningData = [
     {
       title: 'Categories of Hydrogen based on production',
       content: [
-        { text: 'Grey Hydrogen', url: 'javascript:void(0)' },
+        { text: 'Grey Hydrogen', url: '/greyH' },
         { text: 'Blue Hydrogen', url: 'javascript:void(0)' },
         { text: 'Green Hydrogen', url: 'javascript:void(0)' }
       ]
@@ -35,7 +35,7 @@ export const LearningData = [
     {
       title: 'Hydrogen Generation through Electrolysis',
       content: [
-        { text: 'Alkaline Electrolysis', url: 'javascript:void(0)' },
+        { text: 'Alkaline Electrolysis', url: '/alk' },
         { text: 'PEM (Proton Exchange Membrane) Electrolysis', url: '/PEM' }
       ]
     },
