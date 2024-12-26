@@ -1,9 +1,9 @@
 import back from "../../../assets/icon5.png";
-import Grey_H2 from "../../../assets/Grey Hydrogen.jpg";
+import Blue_H2 from "../../../assets/BlueHydrogen.jpg";
 import Header2 from "../../../components/Header2.jsx";
 import { useNavigate } from "react-router-dom";
 
-const Grey_Hydrogen = () => {
+const Blue_Hydrogen = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-[#f5f5f5] min-h-screen">
@@ -17,13 +17,13 @@ const Grey_Hydrogen = () => {
             <img src={back} alt="back" className="" />
           </button>
           <h3 className="text-[26px] line-height-[32px] font-medium">
-            Grey Hydrogen
+          Blue Hydrogen
           </h3>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-5">
           <img
-            src={Grey_H2}
+            src={Blue_H2}
             alt="PEM Electrolysis"
             className="mx-auto shadow-lg rounded-2xl"
           />
@@ -32,18 +32,7 @@ const Grey_Hydrogen = () => {
               Overview
             </h3>
             <p className="text-sm lg:text-base xl:text-lg line-height-[26px] font-normal">
-              Grey hydrogen is produced primarily through steam methane
-              reforming (SMR), where natural gas (methane) reacts with steam
-              under high pressure and temperature in the presence of a catalyst
-              to generate hydrogen, carbon monoxide, and carbon dioxide. The
-              carbon monoxide further reacts with steam to produce more hydrogen
-              and carbon dioxide. This method, while cost-effective and widely
-              used, results in significant CO₂ emissions, making grey hydrogen
-              the least environmentally friendly option. The high carbon
-              footprint associated with grey hydrogen contributes to greenhouse
-              gas emissions and climate change, but its established production
-              infrastructure and lower production costs make it the most common
-              form of hydrogen available today.
+            Blue hydrogen is generated similarly to grey hydrogen through steam methane reforming (SMR), but with an added step of carbon capture and storage (CCS) to reduce the environmental impact. During the production process, the CO₂ emissions produced are captured and stored in geological formations or utilized in industrial applications, significantly lowering the carbon footprint. This approach can capture up to 90% of the emitted CO₂, making blue hydrogen a more environmentally responsible option compared to grey hydrogen. Blue hydrogen serves as a transitional solution, leveraging existing natural gas resources while mitigating some environmental concerns, and is seen as a step towards cleaner energy production until green hydrogen becomes more economically viable.
             </p>
             <button className="text-xs sm:text-sm lg:text-base xl:text-lg line-height-[26px] font-normal bg-[#0177fb] text-white rounded-full px-4 sm:px-6 py-2 sm:py-2.5 active:translate-y-1 active:shadow-none transition-all duration-75 shadow-[0px_4px_0px_0px_#0155b3]">
               Video
@@ -55,4 +44,4 @@ const Grey_Hydrogen = () => {
   );
 };
 
-export default Grey_Hydrogen;
+export default Blue_Hydrogen;
