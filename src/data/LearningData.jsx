@@ -2,8 +2,8 @@ export const LearningData = [
     {
       title: 'Hydrogen Basics',
       content: [
-        { text: 'Introduction to Hydrogen', url: 'javascript:void(0)' },
-        { text: 'Hydrogen as Fuel', url: 'javascript:void(0)' }
+        { text: 'Introduction to Hydrogen', url: 'intro' },
+        { text: 'Hydrogen as Fuel', url: 'fuel' }
       ]
     },
     {
@@ -17,19 +17,19 @@ export const LearningData = [
     {
       title: 'Hydrogen Safety', 
       content: [
-        { text: 'Flammability and Explosivity', url: 'javascript:void(0)' },
-        { text: 'Leakage and Detection', url: 'javascript:void(0)' },
-        { text: 'Material Compatibility', url: 'javascript:void(0)' },
-        { text: 'Handling and Transport', url: 'javascript:void(0)' },
-        { text: 'Education and Awareness', url: 'javascript:void(0)' }
+        { text: 'Flammability and Explosivity', url: 'flame' },
+        { text: 'Leakage and Detection', url: 'leak' },
+        { text: 'Material Compatibility', url: 'material' },
+        { text: 'Handling and Transport', url: 'hand' },
+        { text: 'Education and Awareness', url: 'edu' }
       ]
     },
     {
       title: 'Hydrogen Generation Methodologies',
       content: [
-        { text: 'Steam Methane Reforming', url: 'javascript:void(0)' },
-        { text: 'Electrolysis of Water', url: 'javascript:void(0)' },
-        { text: 'Methanol Reforming', url: 'javascript:void(0)' }
+        { text: 'Steam Methane Reforming', url: 'steam' },
+        { text: 'Electrolysis of Water', url: 'electro' },
+        { text: 'Methanol Reforming', url: 'methane' }
       ]
     },
     {
