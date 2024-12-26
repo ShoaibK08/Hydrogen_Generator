@@ -1,20 +1,22 @@
 import React from 'react';
 import back from '../../../assets/icon5.png';
 import No_img from '../../../assets/No-Image-Found.png';
-// import Header2 from '../../../components/Header2';
+import Header2 from '../../../components/Header2';
+import { useNavigate } from "react-router-dom";
 
 const Flammability_And_Explosivity_Theory = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-[#f5f5f5] min-h-screen">
-      {/* <Header2 /> */}
+      <Header2 />
       <div className="w-[95%] max-w-[90%] space-y-[30px] mx-auto py-[30px]">
         <div className="flex items-center gap-3.5">
-          <a 
-            href="./index.html" 
+        <button
+            onClick={() => navigate(-1)}
             className="bg-white rounded-full size-[30px] flex items-center justify-center border-[0.5px] border-[#05252433]"
           >
             <img src={back} alt="back" className="" />
-          </a>
+          </button>
           <h3 className="text-[26px] line-height-[32px] font-medium">
           Flammability and Explosivity 
           </h3>

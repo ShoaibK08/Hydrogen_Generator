@@ -4,6 +4,7 @@ import logo from '../assets/logo2.png';
 import menu from '../assets/icon1.png';
 import home from '../assets/icon2.png';
 import { LearningData } from '../data/LearningData.jsx';
+import { Link } from 'react-router-dom';
 
 const Header2 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,12 +37,12 @@ const Header2 = () => {
           >
             <img src={menu} alt="menu" className="w-4 sm:w-5" />
           </button>
-          <a 
-            href="./index.html" 
+          <Link 
+            to="/" 
             className="size-8 sm:size-10 border-[0.67px] border-[#05252433] rounded-full flex items-center justify-center transition-colors duration-300 hover:bg-neutral-100"
           >
             <img src={home} alt="home" className="w-4 sm:w-5" />
-          </a>
+          </Link>
         </div>
       </div>
 
