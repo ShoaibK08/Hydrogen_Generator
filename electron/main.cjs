@@ -1,4 +1,3 @@
-// electron/main.cjs
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
@@ -8,20 +7,31 @@ function createWindow() {
     height: 800,
     webPreferences: {
       nodeIntegration: true,
-      contextIsolation: false
+      contextIsolation: false,
+      enableRemoteModule: true, // Enable this
+      webSecurity: false // Add this for development
     }
   });
-    // Remove the menu bar
-    mainWindow.setMenu(null);
 
-  // Load the Vite development server URL in development
-  // or the local index.html in production
+  // Remove the menu bar
+  mainWindow.setMenu(null);
+
+  // For debugging - open DevTools
+   mainWindow.webContents.openDevTools();
+
   if (process.argv.includes('--dev')) {
     mainWindow.loadURL('http://localhost:3001');
- 
   } else {
-    mainWindow.loadFile(path.join(__dirname, '../dist/index.html'));
+    // Log the path for debugging
+    const filePath = path.join(__dirname, '../dist/index.html');
+    console.log('Loading file from:', filePath);
+    mainWindow.loadFile(filePath);
   }
+
+  // Handle loading errors
+  mainWindow.webContents.on('did-fail-load', (event, errorCode, errorDescription) => {
+    console.error('Failed to load:', errorCode, errorDescription);
+  });
 }
 
 app.whenReady().then(() => {

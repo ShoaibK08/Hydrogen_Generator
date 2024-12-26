@@ -42,74 +42,74 @@ export const LearningData = [
     {
       title: 'Hydrogen Storage',
       content: [
-        { text: 'Geological Hydrogen Storage', url: 'javascript:void(0)' },
-        { text: 'Compressed Hydrogen', url: 'javascript:void(0)' },
-        { text: 'Liquid Hydrogen', url: 'javascript:void(0)' },
-        { text: 'Material based Hydrogen Storage', url: 'javascript:void(0)' },
-        { text: 'Hydrogen Storage in Ammonia', url: 'javascript:void(0)' }
+        { text: 'Geological Hydrogen Storage', url: '/' },
+        { text: 'Compressed Hydrogen', url: '/' },
+        { text: 'Liquid Hydrogen', url: '/' },
+        { text: 'Material based Hydrogen Storage', url: '/' },
+        { text: 'Hydrogen Storage in Ammonia', url: '/' }
       ]
     },
     {
       title: 'Hydrogen Distribution',
       content: [
-        { text: 'Hydrogen Pipelines', url: 'javascript:void(0)' },
-        { text: 'Hydrogen Tankers', url: 'javascript:void(0)' },
-        { text: 'Hydrogen Refueling Stations', url: 'javascript:void(0)' },
-        { text: 'Ammonia as a Hydrogen Carrier', url: 'javascript:void(0)' }
+        { text: 'Hydrogen Pipelines', url: '/' },
+        { text: 'Hydrogen Tankers', url: '/' },
+        { text: 'Hydrogen Refueling Stations', url: '/' },
+        { text: 'Ammonia as a Hydrogen Carrier', url: '/' }
       ]
     },
     {
       title: 'Fuel Cell Fundamentals',
       content: [
-        { text: 'Introduction to Fuel Cell', url: 'javascript:void(0)' }
+        { text: 'Introduction to Fuel Cell', url: '/' }
       ]
     },
     {
       title: 'Categories of Fuel Cell',
       content: [
-        { text: 'Alkaline Fuel Cell', url: 'javascript:void(0)' },
-        { text: 'PEM (Proton Exchange Membrane) Fuel Cell', url: 'javascript:void(0)' },
-        { text: 'Microbial Fuel Cell', url: 'javascript:void(0)' },
-        { text: 'Phosphoric Acid Fuel Cells (PAFC)', url: 'javascript:void(0)' },
-        { text: 'Molten Carbonate Fuel Cells (MCFC)', url: 'javascript:void(0)' },
-        { text: 'Solid Oxide Fuel Cells (SOFC)', url: 'javascript:void(0)' },
-        { text: 'Direct Methanol Fuel Cells (DMFC)', url: 'javascript:void(0)' }
+        { text: 'Alkaline Fuel Cell', url: '/' },
+        { text: 'PEM (Proton Exchange Membrane) Fuel Cell', url: '/' },
+        { text: 'Microbial Fuel Cell', url: '/' },
+        { text: 'Phosphoric Acid Fuel Cells (PAFC)', url: '/' },
+        { text: 'Molten Carbonate Fuel Cells (MCFC)', url: '/' },
+        { text: 'Solid Oxide Fuel Cells (SOFC)', url: '/' },
+        { text: 'Direct Methanol Fuel Cells (DMFC)', url: '/' }
       ]
     },
     {
       title: 'Advanced Hydrogen Fuel Cell Experiments',
       content: [
-        { text: 'Test the fuel cell at different load condition', url: 'javascript:void(0)' },
-        { text: 'Study of IV characteristics of fuel cell', url: 'javascript:void(0)' },
-        { text: 'Study of the Measurement of Fuel Cell Efficiency', url: 'javascript:void(0)' }
+        { text: 'Test the fuel cell at different load condition', url: '/' },
+        { text: 'Study of IV characteristics of fuel cell', url: '/' },
+        { text: 'Study of the Measurement of Fuel Cell Efficiency', url: '/' }
       ]
     },
     {
       title: 'Hydrogen industrial Application',
       content: [
-        { text: 'Ammonia Production', url: 'javascript:void(0)' },
-        { text: 'Methanol Production', url: 'javascript:void(0)' },
-        { text: 'Steelmaking', url: 'javascript:void(0)' },
-        { text: 'Concrete Production', url: 'javascript:void(0)' },
-        { text: 'Oil Refining', url: 'javascript:void(0)' }
+        { text: 'Ammonia Production', url: '/' },
+        { text: 'Methanol Production', url: '/' },
+        { text: 'Steelmaking', url: '/' },
+        { text: 'Concrete Production', url: '/' },
+        { text: 'Oil Refining', url: '/' }
       ]
     },
     {
       title: 'Hydrogen Combustion Engine',
       content: [
-        { text: '', url: 'javascript:void(0)' },
-        { text: '', url: 'javascript:void(0)' }
+        { text: '', url: '/' },
+        { text: '', url: '/' }
       ]
     },
     {
       title: 'Hydrogen Mobility and Transportation Applications',
       content: [
-        { text: 'Fuel Cell Buses', url: 'javascript:void(0)' },
-        { text: 'Material Handling', url: 'javascript:void(0)' },
-        { text: 'Mining trucks', url: 'javascript:void(0)' },
-        { text: 'Aviation', url: 'javascript:void(0)' },
-        { text: 'Rail Transportation', url: 'javascript:void(0)' },
-        { text: 'Marine Transportation', url: 'javascript:void(0)' }
+        { text: 'Fuel Cell Buses', url: '/' },
+        { text: 'Material Handling', url: '/' },
+        { text: 'Mining trucks', url: '/' },
+        { text: 'Aviation', url: '/' },
+        { text: 'Rail Transportation', url: '/' },
+        { text: 'Marine Transportation', url: '/' }
       ]
     }
   ]

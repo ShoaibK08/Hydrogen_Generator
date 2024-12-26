@@ -27,7 +27,7 @@ const Header2 = () => {
   return (
     <header className="border-b relative border-neutral-900 h-20 left-0 w-full z-[100] bg-white">
       <div className="w-[95%] max-w-[90%] mx-auto flex justify-between items-center h-full">
-        <a href="./index.html">
+        <a href="/">
           <img src={logo} alt="logo" className="h-[50px]" />
         </a>
         <div className="flex items-center gap-2 sm:gap-4">
@@ -74,13 +74,19 @@ const Header2 = () => {
                   }`}>
                     <div className="overflow-hidden flex flex-col gap-3.5">
                       {item.content.map((link, linkIndex) => (
-                        <a
-                          key={linkIndex}
-                          href={link.url}
-                          className="hover:text-blue-600 transition-colors duration-300"
-                        >
-                          {link.text}
-                        </a>
+                     <Link
+                     key={linkIndex}
+                     to={link.url !== '/' ? link.url : '#'}
+                     onClick={(e) => {
+                       if (link.url === '/') {
+                         e.preventDefault(); // Prevent navigation for empty URLs
+                         console.warn('Link not available');
+                       }
+                     }}
+                     className="hover:text-blue-600 transition-colors duration-300"
+                   >
+                     {link.text || 'Coming Soon'}
+                   </Link>
                       ))}
                     </div>
                   </div>
