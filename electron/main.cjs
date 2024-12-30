@@ -17,7 +17,7 @@ function createWindow() {
   mainWindow.setMenu(null);
 
   // For debugging - open DevTools
-   mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   if (process.argv.includes('--dev')) {
     mainWindow.loadURL('http://localhost:3001');
