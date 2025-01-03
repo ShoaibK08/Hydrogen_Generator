@@ -1,6 +1,6 @@
 import back from '../../../assets/icon5.png';
 import No_img from '../../../assets/No-Image-Found.png';
-import Header2 from '../../../components/Header2.jsx';
+import Header2 from '../../../components/header2/Header2';
 import { useNavigate } from 'react-router-dom';
 
 const Methanol_Reforming_Theory = () => {

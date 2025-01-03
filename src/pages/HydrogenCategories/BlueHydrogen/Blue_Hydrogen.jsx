@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import back from "../../../assets/icon5.png";
 import Blue_H2 from "../../../assets/BlueHydrogen.jpg";
-import Header2 from "../../../components/Header2.jsx";
+import Header2 from "../../../components/header2/Header2";
 import { useNavigate } from "react-router-dom";
 
 const Blue_Hydrogen = () => {

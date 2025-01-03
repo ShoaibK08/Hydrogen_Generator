@@ -1,7 +1,7 @@
 
 import back from "../../../assets/icon5.png";
 import Alkaline_img from "../../../assets/Alkaline_img.jpg";
-import Header2 from "../../../components/Header2.jsx";
+import Header2 from "../../../components/header2/Header2";
 import { useNavigate } from "react-router-dom";
 
 const Alkaline_Electrolysis = () => {

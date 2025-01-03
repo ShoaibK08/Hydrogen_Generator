@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import AccordionItem from '../../components/Accordion.jsx';
+import AccordionItem from '../../components/accordion/Accordion.jsx';
+
 import { LearningData } from '../../data/LearningData.jsx';
 import img2 from '../../assets/img2.png';
-import Header from '../../components/Header.jsx';
+import Header from '../../components/header/Header.jsx';
 
 const HydrogenLearning = () => {
     const [activeItem, setActiveItem] = useState(null);
