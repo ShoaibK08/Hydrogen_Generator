@@ -1,6 +1,6 @@
 import back from '../../../assets/icon5.png';
 import PEM_img from '../../../assets/PEM_img.png';
-import Header2 from '../../../components/Header2.jsx';
+import Header2 from '../../../components/header2/Header2';
 import { useNavigate } from 'react-router-dom';
 
 const PEM_Electrolysis_Theory = () => {

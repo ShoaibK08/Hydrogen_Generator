@@ -1,9 +1,9 @@
 import  { useState, useRef, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
-import logo from '../assets/logo2.png';
-import menu from '../assets/icon1.png';
-import home from '../assets/icon2.png';
-import { LearningData } from '../data/LearningData.jsx';
+import logo from '../../assets/logo2.png';
+import menu from '../../assets/icon1.png';
+import home from '../../assets/icon2.png';
+import { LearningData } from '../../data/LearningData.jsx';
 import { Link } from 'react-router-dom';
 
 const Header2 = () => {

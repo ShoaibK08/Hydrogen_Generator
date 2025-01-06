@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import icon6 from '../assets/icon6.png';
+import icon6 from '../../assets/icon6.png';
 
 const AccordionItem = ({ item, isActive, onClick }) => {
   return (

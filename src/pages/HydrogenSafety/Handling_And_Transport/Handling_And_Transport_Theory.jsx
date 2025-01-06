@@ -1,7 +1,7 @@
 import React from 'react';
 import back from '../../../assets/icon5.png';
 import No_img from '../../../assets/No-Image-Found.png';
-import Header2 from '../../../components/Header2';
+import Header2 from '../../../components/header2/Header2';
 import { useNavigate } from "react-router-dom";
 
 const Handling_And_Transport_Theory = () => {
